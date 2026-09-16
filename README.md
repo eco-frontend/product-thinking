@@ -1,24 +1,87 @@
 # Product Thinking
 
+## 운영
+
+* 기본 수요일, 최대 2시간
+* 매주 일요일까지 참석 가능 여부 공유
+* 사전 준비 / 숙제 없음
+* 실제 사례를 쓰면 민감한 정보는 익명화
+* 먼저 각자 생각한 뒤 같이 토론
+* 모르는 건 억지로 채우지 않고 `Unknown`으로 남김
+* 사람보다 생각과 가정을 Challenge
+
+## 역할
+
+**AI**
+
+* 매주 구체적인 케이스 제공
+* 중간중간 우리가 놓친 점 피드백
+* 마지막에는 우리 결론을 반박해보기
+
+**Miro**
+
+* 세션 중 각자 생각하고 토론하는 공간
+* 작성한 내용을 GitHub로 전부 옮기지는 않음
+
+**GitHub**
+
+* 최종 문제 정의, 판단, 배운 점만 기록
+
 ## Session Flow
 
-Case Open
-→ Solo Observation
-→ Observation Review
-→ Problem Framing
-→ Challenge
-→ Solution Space
-→ Decision
-→ Retro
+|       시간 | 단계                         |
+| -------: | -------------------------- |
+|    0–15분 | 케이스 읽기 + 각자 관찰             |
+|   15–30분 | 관찰 비교 + GPT 피드백            |
+|   30–55분 | 문제 정의 + 문제 흔들기 + GPT 피드백   |
+|   55–80분 | 해결 방법 탐색 + 하나 선택 + GPT 피드백 |
+|  80–100분 | 최종 판단 + 서로 갑론을박 + GPT 반박   |
+| 100–110분 | Retro                      |
 
-## Rules
+### 관찰할 때
 
-1. No Homework
-2. One Problem per Session
-3. Think Alone Before Thinking Together
-4. Observed ≠ Inferred
-5. Challenge Ideas, Not People
-6. No Solution Jumping
-7. Unknown is a Valid Answer
-8. Finish within 2 Hours
-9. Questions > Answers
+각자 먼저 아래 세 가지로 나눈다.
+
+* **Observed** — 실제로 확인되는 것
+* **Inferred** — 내가 해석하거나 추측한 것
+* **Unknown** — 판단하려면 더 알아야 하는 것
+
+### GPT 피드백 받을 때
+
+Miro 내용을 일일이 옮기지 않고 프레임을 캡처해서 전달한다.
+
+GPT는 정답을 바로 알려주기보다:
+
+* 우리가 사실처럼 취급한 추측
+* 놓친 Unknown
+* 숨어 있는 가정
+* 다음에 생각할 질문
+
+위주로 피드백한다.
+
+마지막에는 우리가 먼저 결론을 내린 뒤 GPT에게 반박을 요청한다.
+
+## 끝나고 남길 것
+
+GitHub에는 이것만 남긴다.
+
+```md
+# Gym #00 — 제목
+
+## Final Problem
+-
+
+## Decision
+-
+
+## Important Unknowns
+-
+
+## GPT Counterargument
+-
+
+## Thinking / Retro
+-
+```
+
+완벽하게 운영하는 것보다, 부담 없이 계속하는 걸 우선한다.

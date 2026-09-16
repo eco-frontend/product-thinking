@@ -1,5 +1,8 @@
 # OT
 
+# 참석자
+@hazzzi @dev-yesman @h4ckney
+
 ## 시작
 
 ### 이 스터디에서 얻고 싶은 것

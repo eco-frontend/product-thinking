@@ -30,11 +30,11 @@
 - **Decision:** 일부 고객에게 비대면 수거 선택지를 제공해 실제 행동과 이후 재구매 신호를 확인한다.
 - **Why:** 현재 정의한 핵심 불편을 직접 제거했을 때 행동이 바뀌는지 보고 싶다.
 
-### [dev-yesman](https://github.com/dev-yesman)
+### [@dev-yesman](https://github.com/dev-yesman)
 - **Decision:** 첫 구매 고객에게 비대면 전달 선호도를 먼저 확인한다.
 - **Why:** 개발·운영 비용을 크게 들이지 않고 가설을 우선 걸러내려 한다.
 
-### [h4ckney](https://github.com/h4ckney)
+### [@h4ckney](https://github.com/h4ckney)
 - **Decision:** 비대면 수거 / 도착시간 예측 / 기존 방식을 비교한다.
 - **Why:** 대면 자체와 예측 불가능성 중 어떤 문제가 더 중요한지 비교해서 학습하려 한다.
 
@@ -53,8 +53,8 @@
 
 ## Retro
 - **[@hazzzi](https://github.com/hazzzi):** 비대면 수거를 당연한 서비스 구조처럼 생각했고 결론을 빠르게 내렸다. 검증 주기가 너무 긴지도 더 일찍 봐야 한다.
-- **[dev-yesman](https://github.com/dev-yesman):** 사용자 심리를 쉽게 추론했다. 다음에는 현재 사실과 행동에서 먼저 판단한다.
-- **[h4ckney](https://github.com/h4ckney)** `수거 시간 범위 이탈 증가`를 `점점 늦어진다`로 해석했다. 다음에는 더 싸게 배울 방법을 먼저 찾는다.
+- **[@dev-yesman](https://github.com/dev-yesman):** 사용자 심리를 쉽게 추론했다. 다음에는 현재 사실과 행동에서 먼저 판단한다.
+- **[@h4ckney](https://github.com/h4ckney)** `수거 시간 범위 이탈 증가`를 `점점 늦어진다`로 해석했다. 다음에는 더 싸게 배울 방법을 먼저 찾는다.
 
 ### 운영 개선
 - GPT가 해결책이나 Cheap Test 예시를 먼저 보여주지 않는다.
